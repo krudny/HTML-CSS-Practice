@@ -1,0 +1,44 @@
+body {
+    margin: 50px 0 0 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+
+input {
+    font-size: 26px;
+    border: none;
+    width: 300px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: rgb(20, 134, 209);
+    cursor: pointer;
+}
